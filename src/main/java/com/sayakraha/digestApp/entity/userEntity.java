@@ -24,5 +24,6 @@ public class userEntity {
     private String password;
     @DBRef
     private List<journalEntity> journals = new ArrayList<>();
+    private List<String> roles;
     private LocalDateTime entryDate;
 }
